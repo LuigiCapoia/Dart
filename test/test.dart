@@ -18,4 +18,11 @@ void main() {
       expect(isAprovado(57), false);
   });
 
+   test('Calcular a media',(){
+      expect(media([]), 0);
+      expect(media([12,36,45,50]), 35);
+      expect(media([45,80,80,80]), 71);
+  });
+
+
 }
